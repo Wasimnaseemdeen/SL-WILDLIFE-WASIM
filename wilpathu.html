@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="icon" href="/elephant.png">
+      <link rel="stylesheet" href="park.css">
+      <script src="main.js" defer></script>
+        <title>Wilpathu National Park</title>
+    </head>
+    <body>
+        <div>
+          <nav>
+            <ul>
+              <button id="loginBtn">Login</button>
+        <button id="logoutBtn" style="display: none">Logout</button>
+        <button id="saveBtn" style="display: none">Save Changes</button>
+              <li><a href="index.html">Home Page</a></li>
+              <li><a href="introduction.html">Introduction to Srilankan WIldlife</a></li>
+              <li><a href="leopard.html">Lepord</a></li>
+              <li><a href="animals.html">Animals</a></li>
+              <li><a href="department.html">Department </a></li> 
+              <li><a href="wilpathu.html">wilpathu</a></li>
+                <li><a href="yala.html">yala</a></li>
+          </ul></nav>
+          </div>
+          
+            
+            <div class="dropdown">
+              <button class="dropbutton">Our National Park</button>
+              <div class="dropdown-content">
+                <a href="yala.html">Yala National Park</a>
+                <a href="wilpathu.html">Wilpathu National Park</a>
+              </div>
+
+        <img id="wilpathu" src="/dog.jpg" alt="Wilpathu">
+
+        <h1 id="king">Wilpathu National Park</h1>
+
+         <h2 id="title1"></h2>
+        <div id="King">
+       <p id="text1"></p>
+          <img src="./leopardnew.jfif">
+        </div>
+
+
+        <h3 id="title2"></h3>
+        <div>
+            <p id="text2"></p>
+        </div>
+
+
+        <section id="contact">
+            <h2>Contact us</h2>
+            <form action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+      
+      
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="1" required></textarea>
+      
+              <button type="submit">Submit</button>
+            </form>
+           </section>
+      
+        <footer>
+         <!-- view subscription button -->
+      <h1 id="newslettermsg">Subscribe to our newsletter here !</h1>
+      <!-- view subscription button -->
+      <button id="subsbtn" class="btn3" style="display :none">View Subscriptions</button>
+      <div class="table-popup" id="tablepopup">
+          <button id="closebtnsub" class="closeboxsub">&times;</button>
+          <table id="subscriptionTable">
+          <thead>
+              <tr>
+                  <th>Full Name</th>
+                  <th>Email</th>
+              </tr>
+          </thead>
+          <tbody>
+              <!-- Subscription data will be displayed here -->
+          </tbody>
+      </table>
+  </div></div>
+  <!-- subscribe button -->
+      <button id="subscribebutton">Subscribe</button>
+      <div id="nsPopup" class="formbox">
+        <button id="closebox">Close</button>
+        <p id="msg2">Enter your details</p>
+        <form id="subscribeForm">
+          <label class="fullname">Full Name:</label><br><br>
+          <input type="text" class="fullname" name="fullname" required><br><br>
+          <label for="email_" class="mailcss">Email:</label><br><br>
+          <input type="email" class="mailcss" id="email_" name="email" required><br><br><br>
+          <button id="submitstyle" type="submit">Submit</button>
+        </form>
+      </div>
+            <p>&copy;2024 SriLankan WildLife</p>
+            </footer>
+            <script src="main.js" defer></script>
+       
+
+
+    </body>
+</html>

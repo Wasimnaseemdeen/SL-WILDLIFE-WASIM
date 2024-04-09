@@ -1,0 +1,251 @@
+nav ul{
+    list-style: none;
+    padding: 0;
+    
+  }
+  nav ul li{
+    display: inline;
+    margin-right: 20px;
+    
+  }
+  nav a{
+     text-decoration:none ;
+     color: #000;
+     font-weight: bold;
+  
+  }
+  section{
+    padding: 40px;
+  }
+  nav ul{
+    background: color #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    margin: auto;
+  }
+  nav{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    justify-content: center;
+    display: flex;
+  
+  }
+  nav ul li{
+    border-right: 1px solid #bbb;
+    padding-right: 26.1px;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+  }
+  
+  nav ul li{
+    text-decoration:none;
+    color: black;
+    display: inline-block;
+    padding: 12px 12px;
+  
+  }
+  
+  li a:hover:not(.active){
+    background-color: #78b075;
+  }
+
+  #mode{
+    width: 100%;
+    height: auto;
+  }
+
+  #kkk{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30;
+}
+#rrr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#ooo{
+    font-size: 15px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 0.1px;
+    margin-left: 0.1;
+    margin-right: 0.1px;
+    font-family: sans-serif;
+  }
+  body{
+    background-image: url(/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  /* Modal base styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 96%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Newsletter styling */
+
+   /* for h2 */
+   #newslettermsg{
+    color:#2b7386;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13pt;
+   }
+   
+   #msg2{
+    color:#2b7386;
+    font-size: 20pt;
+   }
+
+   .fullname{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #2b7386;
+
+   }
+
+   .mailcss{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #2b7386;
+   }
+   
+   #subscribebutton{
+    margin-left:33%;
+    height:40px;
+    width:120px;
+    border-color: 1px #2b7386;
+    border-radius: 10px;
+    font-size: large;
+    color:#2b7386;
+
+   }
+
+   #subsbtn{
+    display:none;
+    height: 80px;
+    width: 120px;
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+    padding: 20px;
+    z-index: 9999; 
+    cursor: pointer;
+    transition: all 0.25s;
+    color:#2b7386;
+    border-radius: 15px;
+    
+  }
+  
+  /* Styling for the subscription list popup */
+
+/* Styling for the popup */
+.table-popup {
+  display: none; /* Hide the popup initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius:10px;
+  }
+  
+  /* Styling for the popup content */
+  .popup-content {
+  position: relative;
+  }
+  
+  /* Styling for the subscription table */
+  #subscriptionTable {
+  width: 100%;
+  border-collapse: collapse;
+  color:black;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #subscriptionTable th,
+  #subscriptionTable td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+  }
+  
+  #subscriptionTable th {
+  background-color: whitesmoke;
+  }
+  
+  #subscriptionTable tr:nth-child(even) {
+  background-color: whitesmoke;
+  }
+  
+  #subscriptionTable tr:hover {
+  background-color: #ddd;
+  }
